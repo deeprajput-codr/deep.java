@@ -1,0 +1,14 @@
+import java.util.Scanner;
+//Convert km into a Miles
+public class q1(convertmileintokm) {
+    public static void main(String[] args) {
+       System.out.println(" Get user name");
+       Scanner sc = new Scanner(System.in);
+       System.out.print("Enter num in km : ");
+       double a = sc.nextDouble();
+         System.out.println("Convert into a mile : ");
+         System.out.println("cnvert mile is " + a *0.621371);
+      
+
+    }
+}
